@@ -1,0 +1,599 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    /* background:yellow;  */
+    position:fixed;
+    width:80%;
+    left:2%;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100px;
+    text-align:left;
+    word-wrap: break-word;
+    line-height:100px;
+    color:rgb(21, 255, 0);
+}
+
+.moving {
+    position:relative;
+    width:80%;
+    height:100%;
+    left:23%;
+    top:0%;
+   z-index:10px;
+}
+
+.header:hover{
+    color:blue;
+    filter:drop-shadow(1);
+    font-size:200px;
+
+}
+.blur-text:hover{
+    filter: blur (10px);
+    cursor:pointer;
+}
+.main{
+    /* background:blue;   */
+    position:relative;
+    width:80%;
+    height:100%;
+    top: 100px;
+    left: 0px;
+
+    
+}
+.sidebar{
+    /* background:green;   */
+    padding:2px;
+    position:fixed;
+    width:20%;
+    height:1000vh;
+    top: 0px;
+    right:0;
+    
+}
+
+
+.sidebar:hover{
+    /* background:green;   */
+}
+
+p{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    word-spacing:30px;
+    letter-spacing:0px;
+    text-align:right;
+    padding:30px;
+    transition:all 500ms;
+
+}
+
+p:hover{
+    color:rgb(21, 255, 0);
+    /* text-decoration:line-through; */
+    /* background:pink; */
+    opacity:0.8;
+}
+
+a{
+    color: rgb(21, 255, 0);
+}
+a:link {
+    color: rgb(21, 255, 0);
+    text-decoration: none;
+    
+  }
+
+  .hide{
+    opacity:0;
+}
+
+img {
+    width:10%;
+    display:block;
+    position: relative;
+    top:10%;
+    left:50%
+    opacity:1;
+    transition:all 500ms;
+}
+
+.logo{
+    position:fixed;
+    width:40%;
+    top:0%;
+    right:30%;
+    z-index:10;
+
+}
+
+.logo:hover{
+    position:fixed;
+    width:50%; 
+    z-index:10;
+    transition:all 500ms;
+
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    top:0;
+    left:0;
+    /* background:black; */
+    color:white;
+    padding:20px;
+    border-radius:20px;
+    z-index:10;
+}
+
+.modal{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    position:absolute;
+    width:300px;
+    height:80px;
+    /* background:blue; */
+    padding:20px;
+    top:10px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:20px;
+    z-index:10;
+    display:none;
+}
+
+.button1{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    top:0;
+    right:0;
+    /* background:black; */
+    color:white;
+    padding:20px;
+    border-radius:20px;
+    z-index:10;
+}
+
+.audio1{
+    position:fixed;
+    top:340px;
+    left:400px;
+}
+
+.minilogo{
+    position:fixed;
+    width:40%;
+    top:0%;
+    right:30%;
+    z-index:10;
+
+}
+
+.maptext{
+    background:yellow;
+    position:relative;
+    top:70px;
+    z-index:10;
+    color:white;
+    text-align:right;
+    word-spacing:0px;
+    padding:0px;
+}
+
+.modal1,.modal2,.modal3,.modal4,.modal5,.modal6,.modal7,.modal8,.modal9,.modal10,.modal11,.modal12,.modal13,.modal14,.modal15,.modal16,.modal17,.modal18,.modal19,.modal20,.modal21,.modal22,.modal23,.modal24,.modal25,.modal26,.modal27,.modal28,.modal29,.modal30,.modal31,.modal32,.modal33,.modal34,.modal35,.modal36,.modal37,.modal38,.modal39,.modal40,.modal41,.modal42,.modal43,.modal44,.modal45,.modal46,.modal47,.modal47,.modal48,.modal49,.modal50,.modal51,.modal52 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background:yellow;
+    position:fixed;
+    width:300px;
+    /* height:10px; */
+    /* background:yellow; */
+    top:30px;
+    left:10%;
+    transform:translate(-50%,-50%);
+    border-radius:20px;
+    z-index:10;
+    display:none;
+}
+
+.show{
+    display:block;
+}
+
+.old{
+    width:3%;
+    display:inline-block;
+    position: fixed;
+    top: 50%;
+    right:8%;
+    opacity:1;
+    transition:all 500ms;
+
+}
+.video{
+    z-index:-10;
+    opacity:0.8;
+    position:fixed;
+    filter:blur(30px);
+   
+}
+
+.all{
+    width:150%;
+    display:inline-block;
+    position: relative;
+    top: 0%;
+    left:0%;
+    opacity:1;
+    transition:all 500ms;
+    z-index: 10;
+    filter:blur(10px);
+
+}
+
+.northernlinemap1{
+    color:blue;
+    width:300%;
+    display:inline-block;
+    display:fixed; 
+    top:180px;
+    left:0%;
+    opacity:1;
+    transition:all 500ms;
+    z-index: 10;
+    pointer-events:none;
+}
+.green{
+    width:10%;
+    display:inline-block;
+    display:relative; 
+    top: 0%;
+    left:0%;
+    opacity:1;
+    transition:all 500ms;
+    z-index: 10;
+}
+
+.highbarnet,.tottridge,.woodsidepark,.westfinchley,.millhilleast,.finchleycentral,.eastfinchley,.highgate,.archway,.tufnellpark,.kentishtown,.camdentown,.mornington,.chalkfarm,.belsize,.hampstead,.golders,.brentcross,.hendon,.colindale,.burntoak,.edgware,.euston,.kingscross,.angel,.oldstreet,.moorgate,.bank,.londonbridge,.borough,.elephant,.kennington,.oval,.stockwell,.claphamnorth,.claphamcommon,.claphamsouth,.balham,.tootingbec,.tootingbroadway,.collierswood,.southwimbledon,.morden,.nineelms,.battersea,.waterloo,.embankment,.charingcross,.leicester,.tottenham,.goodge,.warren{
+    position:absolute;
+    top:510px;
+    width:32px;
+    height:20px;
+    border-radius: 20px;
+    /* background:blue; */
+    opacity:1;
+    z-index:10;
+}
+.highbarnet{
+    left: 40px;
+}
+.tottridge{
+    /* background:pink; */
+    top:510px;
+    left:165px;
+    z-index:10;
+}
+
+.woodsidepark{
+    left:310px;
+    z-index:10;
+}
+
+.westfinchley{
+    left:400px;
+    z-index:10;
+}
+.millhilleast{
+    top:550px;
+    left:340px;
+    z-index:10;
+}
+
+.finchleycentral{
+    left:500px;
+    z-index:10;
+}
+
+
+.eastfinchley{
+    left:570px;
+    z-index:10;
+}
+
+.highgate{
+    left:670px;
+    z-index:10;
+}
+
+.archway{
+    left:750px;
+    z-index:10;
+}
+
+.tufnellpark{
+    left:840px;
+    z-index:10;
+}
+.kentishtown{
+    left:960px;
+    z-index:10;
+}
+.camdentown{
+    top:580px;
+    left:1115px;
+    z-index:10;
+}
+
+.mornington{
+    /* background:yellow; */
+    top:600px;
+    left:1240px;
+    z-index:10;
+}
+.chalkfarm{
+    top:655px;
+    left:966px;
+    z-index:10;
+}
+
+.belsize{
+    top:655px;
+    left:885px;
+    z-index:10;
+}
+.hampstead{
+    top:655px;
+    left:770px;
+}
+.golders{
+    top:655px;
+    left:627px;
+    z-index:10;
+}
+
+.brentcross{
+    top:655px;
+    left: 500px;
+    z-index:10;
+}
+
+.hendon{
+    top:655px;
+    left:370px;
+    z-index:10;
+}
+
+.colindale{
+    top:655px;
+    left:270px;
+    z-index:10;
+    
+}
+
+.burntoak{
+    top:655px;
+    left:150px;
+    z-index:10;
+}
+.edgware{
+    top:655px;
+    left:30px;
+    z-index:10;
+}
+
+.euston{
+    /* background:green; */
+    top:570px;
+    left:1324px;
+    z-index:10;
+}
+
+
+.kingscross{
+    /* background:pink; */
+    top:504px;
+    left:1590px;
+    z-index:10;
+}
+.angel{
+    /* background:green; */
+   top:504px;
+    left:1785px;
+}
+.oldstreet{
+    top:504px;
+    left:1915px;
+    z-index:10;
+}
+
+.moorgate{
+    /* background:yellow; */
+    top:504px;
+    left:2090px;
+    z-index:10;
+
+}
+.bank{
+    /* background:yellow; */
+    top:504px;
+    left:2300px;
+    z-index:10;
+}
+
+.londonbridge{
+    /* background:yellow; */
+    top:504px;
+    left:2505px;
+    z-index:10;
+}
+
+.borough{
+    top:504px;
+    left:2705px;
+    z-index:10;
+}
+
+.elephant{
+    /* background:yellow; */
+    top:504px;
+    left:2900px;
+    z-index:10;
+}
+
+.kennington{
+    /* background:yellow;  */
+    top:588px;
+    left:3128px;
+    z-index:10;
+}
+    
+.oval{
+    top:588px;
+    left:3210px;
+    z-index:10;
+
+}
+
+.nineelms{
+    background:red;
+    top:588px;
+    left:3210px;
+    z-index:10;
+}
+.stockwell{
+    top:588px;
+    left:3285px;
+    z-index:10;
+
+}
+.claphamnorth{
+    top:588px;
+    left:3380px;
+    z-index:10;
+}
+.claphamcommon{
+    top:588px;
+    left:3480px;
+    z-index:10;
+}
+
+.claphamsouth{
+    top:588px;
+    left:3585px;
+    z-index:10;
+}
+
+.balham{
+    top:588px;
+    left:3705px;
+    z-index:10;
+}
+
+.tootingbec{
+    top:588px;
+    left:3800px;
+    z-index:10;
+
+}
+.tootingbroadway{
+    top:588px;
+    left:3931px;
+    z-index:10;
+}
+
+.collierswood{
+    top:588px;
+    left:4070px;
+    z-index:10;
+
+}
+
+.southwimbledon{
+    top:588px;
+    left:4170px;
+    z-index:10;
+
+}
+
+.morden{
+    top:588px;
+    left:4270px;
+    z-index:10;
+
+}
+.battersea{
+    top:688px;
+    left:3380px;
+    z-index:10;
+}
+
+.nineelms{
+    top:688px;
+    left:3380px;
+    z-index:10;
+
+}
+
+.waterloo{
+    top:665px;
+    left:2860px;
+    z-index:10;
+
+}
+
+.embankment{
+    top:665px;
+    left:2670px;
+    z-index:10;
+
+}
+.charingcross{
+    top:665px;
+    left:2490px;
+    z-index:10;   
+}
+
+.leicester{
+    background:red;
+    top:665px;
+    left:2225px;
+    z-index:10;  
+}
+
+.tottenham{
+    background:red;
+    top:665px;
+    left:2034px;
+    z-index:10;  
+
+}
+.goodge{
+    background:red;
+    top:665px;
+    left:1850px;
+    z-index:10; 
+
+}
+
+.warren{
+    background:red;
+    top:665px;
+    left:1700px;
+    z-index:10; 
+
+}
+.pictograms{
+    position:fixed;
+    /* background:pink; */
+    width:100%;
+    left:20%;
+    top:0px;
+    filter:blur(0);
+}
