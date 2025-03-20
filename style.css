@@ -462,7 +462,6 @@ img {
 }
 
 .nineelms{
-    background:red;
     top:588px;
     left:3210px;
     z-index:10;
@@ -561,21 +560,18 @@ img {
 }
 
 .leicester{
-    background:red;
     top:665px;
     left:2225px;
     z-index:10;  
 }
 
 .tottenham{
-    background:red;
     top:665px;
     left:2034px;
     z-index:10;  
 
 }
 .goodge{
-    background:red;
     top:665px;
     left:1850px;
     z-index:10; 
@@ -583,7 +579,6 @@ img {
 }
 
 .warren{
-    background:red;
     top:665px;
     left:1700px;
     z-index:10; 
